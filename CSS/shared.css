@@ -166,14 +166,32 @@ left: 25%;
     color: #0e4f1f;
 }
 
-.footer {
+.main-footer {
     background-color: black;
     position: fixed;
     bottom: 0;
-    color: #FFFF;
-    display: block;
-    vertical-align: middle;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 8px 16px;
+    width: 100%;
+    padding: 0px;
 }
+
+.main-footer__items {
+    text-align: center;
+}
+
+.main-footer__item {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 16px;
+}
+
+.main-footer__item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: small;
+}
+
+.main-footer__item a:hover {
+    color: #ff1b68;
+}
+
+

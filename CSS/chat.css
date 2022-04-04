@@ -33,3 +33,7 @@
   text-align:left;
   font-weight: 600;
 }
+
+.main-footer {
+  width: calc(100% - 15em);
+}
