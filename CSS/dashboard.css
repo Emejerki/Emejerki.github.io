@@ -5,12 +5,14 @@
   
     width: 30%;
     margin: 10px;
-border-radius: 15px;
-vertical-align: middle;
-box-shadow: 2px rgba(0, 0, 0, 0.5);
-border-style: ridge;
-font-family: 'Montserrat';
-font-size: medium;
+    border-radius: 15px;
+    vertical-align: middle;
+    box-shadow: 2px rgba(0, 0, 0, 0.5);
+    border-style: ridge;
+    font-family: 'Montserrat';
+    font-size: medium;
+    min-width: 250px;
+    max-width: 280px;
 }
 
 .dashboard-main {
@@ -18,6 +20,12 @@ font-size: medium;
     text-align: center;
 
 }
+
+.dashboard-article__table {
+  margin-top: 20px;
+}
+
+
 
 table.cinereousTable {
     font-family: Verdana, Geneva, sans-serif;
