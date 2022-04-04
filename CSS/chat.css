@@ -16,3 +16,20 @@
     font-weight: bold;
   }
   
+  
+.main-aside__submit {
+  position: absolute;
+  bottom: 1%;
+  right: 2%;
+}
+
+.main-aside__mensajes {
+  height: 80%;
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  scrollbar-color:red yellow;
+  font-size: small;
+  text-align:left;
+  font-weight: 600;
+}

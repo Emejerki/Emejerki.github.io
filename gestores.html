@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- estilos y código JS externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+    <!-- nuestros estilos -->
+    <link rel="stylesheet" href="css/shared.css">
+
+    <link rel="stylesheet" href="CSS/gestores.css">
+</head>
+
+<body>
+
+    <header class="main-header"> 
+        
+        <div>
+            <a class="main-header__brand" href="index.html">Bank</a>
+        </div>
+
+        <nav class="main-nav">
+
+            <ul class="main-nav__items">
+
+                <li class="main-nav__item">
+                    <a href="clientes"> Clientes</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="gestores">Gestores</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="mensajes">
+                        <element class="main-nav__item_mensajes" ::before></element> Mensajes
+                    </a>
+                </li>
+                <li class="main-nav__item  main-nav__item_logout">
+                    <a href="logout.html"> 
+                        <i class="fas fa-sign-out-alt"></i>Logout
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+<main class="gestores-main">
+
+    <article class="gestores-article">
+        <h3>Gestores</h3>
+        <table class="cinereousTable">
+            <thead>
+            <tr>
+            <th>Id</th>
+            <th>User</th>
+            <th>Email</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+            <td colspan="3">
+            <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+            </td>
+            </tr>
+            </tfoot>
+            <tbody>
+            <tr>
+            <td>01</td>
+            <td>Maria</td>
+            <td>maria@hotmail.com</td>
+            </tr>
+            <tr>
+            <td>02</td>
+            <td>David</td>
+            <td>david@hotmail.com</td>
+            </tr>
+            <tr>
+            <td>03</td>
+            <td>Elisa</td>
+            <td>elisa@hotmail.com</td>
+            </tr>
+            <tr>
+            <td>04</td>
+            <td>Juan</td>
+            <td>juan@hotmail.com</td>
+            </tr>
+
+
+            </tbody>
+            </table>
+    </article>
+
+    <article class="gestores-article">
+
+       <Form class="login-form">  
+        <div>
+
+        <label class="login-form__label"for="nombre" id="login-form__label">Nombre 
+        </label>
+        <input type="text"name="nombre"id="nombre">
+
+        <label class="login-form__label"for="contraseña">Password</label>
+        <input type="password"name="contraseña"id="password">
+
+        <label class="login-form__label"for="email">Email</label>
+        <input type="email"name="email"id="email">
+
+        <label class="login-form__label"for="submit"></label>
+        <input type="submit"name="submit" id="submit">
+
+        </div>
+       </Form>
+
+    </article>
+
+
+</main>
+
+<footer class="footer">
+
+    <nav>
+        <ul>
+            <li>Soporte</li>
+            <li>Términos de uso</li>
+            <li>FAQ</li>
+        </ul>
+    </nav>
+
+</footer>
+
+</body>
+</html>
